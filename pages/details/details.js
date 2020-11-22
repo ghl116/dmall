@@ -7,6 +7,7 @@ Page( {
 		var self = this;
 		this.setData( data );
 		serviceCart.get( function( res ) {
+			console.log('detail onload',res)
 			self.setData( {
 				cartNum : res.data.num
 			} );

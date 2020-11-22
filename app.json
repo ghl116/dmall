@@ -1,5 +1,5 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/active/active",
     "pages/details/details",
@@ -8,33 +8,11 @@
     "pages/checkout/checkout",
     "pages/status/status"
   ],
-
-  "window":{
+  "window": {
     "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText" : "多点 - 网上好超市",
-    "navigationBarTextStyle":"#fff",
-    "enablePullDownRefresh" : false
-  }
+    "navigationBarTitleText": "多点 - 网上好超市",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap.json"
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

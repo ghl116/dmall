@@ -3,6 +3,7 @@ var handle,
 
 handle = {
 	query : function( object ) {
+		console.log('query',object)
 		wx.request({
 			url : object.url,
 			data : object.param,
@@ -19,6 +20,7 @@ handle = {
 
 _fn = {
 	responseWrapper : function( res, callback ) {
+		console.log('responseWrapper res',res)
 		if ( !res || res.statusCode != 200 ) {
 			callback( {
 				errCode : -1,

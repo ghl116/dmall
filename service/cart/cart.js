@@ -12,6 +12,7 @@ handle = {
 				num : num
 			},
 			callback : function() {
+				console.log('param',param)
 				++simularNumber;
 				callback( {
 					errCode : '0000',
